@@ -1,0 +1,33 @@
+{
+  "name": "ascentjs-mixins",
+  "version": "0.0.0",
+  "description": "A collection of flight mixins used with Ascent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ascentjs/mixins"
+  },
+  "author": "Blaine Bublitz",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "volo": {
+    "baseUrl": "deps",
+    "dependencies": {
+      "lodash": "github:bestiejs/lodash/v1.2.0",
+      "jquery": "https://raw.github.com/jgallen23/jquery-builder/0.3.0/dist/2.0.0/jquery-ajax-css-deprecated-dimensions-effects-event-alias-offset-sizzle-wrap.js",
+      "flight": "github:ascentjs/flight/v1.0.8"
+    }
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-jasmine": "~0.4.2",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-open": "~0.2.0",
+    "grunt-template-jasmine-requirejs": "~0.1.1"
+  }
+}
